@@ -500,4 +500,10 @@ h3:after {
   }
 }
 
+@media (max-width: 468px) {
+  .logo img {
+    width: 75%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
