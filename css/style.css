@@ -1,3 +1,7 @@
+/* main colour: 93c4a6
+original blue: 8cb0c1;
+grey: 58595b; */
+
 body {
   background: url("../img/bg.jpg") no-repeat center top;
   background-size: 100%;
@@ -18,7 +22,7 @@ p {
 h1 {
   font-family: Georgia;
   font-size: 34px;
-  color: #8cb0c1;
+  color: #93c4a6;
   margin-bottom: 33px;
 }
 
@@ -26,7 +30,7 @@ h2 {
   font-family: Georgia;
   font-size: 19px;
   text-transform: uppercase;
-  color: #8cb0c1;
+  color: #93c4a6;
   margin-bottom: 22px;
 }
 
@@ -43,7 +47,7 @@ h3 {
 h4 {
   font-family: Georgia;
   font-size: 19px;
-  color: #8cb0c1;
+  color: #93c4a6;
   margin-bottom: 22px;
 }
 
@@ -69,6 +73,10 @@ h3:after {
   border-bottom: 0;
   border-top: 0;
   z-index: -1;
+}
+
+.center{
+  text-align: center;
 }
 
 .navigation {
@@ -103,7 +111,7 @@ h3:after {
 .mob-nav a {
   display: inline-block;
   font-size: 24px;
-  color: #8cb0c1;
+  color: #93c4a6;
   padding: 5px 15px;
 }
 
@@ -114,7 +122,7 @@ h3:after {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #8cb0c1;
+  background: #93c4a6;
   padding-top: 60px;
   opacity: 0;
   -webkit-opacity: 0;
@@ -144,7 +152,7 @@ h3:after {
 }
 .mm ul li a:hover {
   background: #fff;
-  color: #8cb0c1;
+  color: #93c4a6;
 }
 
 .row {
@@ -193,7 +201,7 @@ h3:after {
   line-height: 26px;
 }
 .post h2 a {
-  color: #8cb0c1;
+  color: #93c4a6;
 }
 .post p {
   margin-bottom: 24px;
@@ -252,7 +260,7 @@ h3:after {
   color: #999;
 }
 .pagination .ps-pagination li a:hover {
-  color: #8cb0c1;
+  color: #93c4a6;
   text-decoration: none;
 }
 
@@ -289,7 +297,7 @@ h3:after {
 
 .profile {
   text-align: center;
-  border: 2px solid #8cb0c1;
+  border: 2px solid #93c4a6;
   padding: 40px;
   margin-top: 80px;
   padding-top: 80px;
@@ -303,7 +311,7 @@ h3:after {
   margin-top: -160px;
 }
 .profile i {
-  color: #8cb0c1;
+  color: #93c4a6;
   padding: 5px;
 }
 .profile i:hover {
@@ -312,10 +320,33 @@ h3:after {
   opacity: .5;
 }
 
+.foot {
+  text-align: center;
+
+}
+.foot img {
+  position: absolute;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  margin-top: -160px;
+}
+.foot i {
+  color: #93c4a6;
+  padding: 5px;
+}
+.foot i:hover {
+  -webkit-opacity: .5;
+  -moz-opacity: .5;
+  opacity: .5;
+}
+
+
 .goldline {
   width: 100%;
   height: 4px;
-  background: #8cb0c1;
+  background: #93c4a6;
   display: block;
 }
 
@@ -325,7 +356,7 @@ h3:after {
   font-size: 12px;
   padding: 20px 0;
   text-align: center;
-  color: #8cb0c1;
+  color: #93c4a6;
   letter-spacing: 2px;
 }
 
@@ -449,7 +480,7 @@ h3:after {
 }
 .contactbg .formholder {
   height: 100%;
-  background: #8cb0c1;
+  background: #93c4a6;
   padding: 40px;
   overflow: hidden;
 }
