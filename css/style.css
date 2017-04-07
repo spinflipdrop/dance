@@ -513,6 +513,26 @@ h3:after {
   color: #fff;
   font-size: 12px;
 }
+
+.insta {
+  width:730px; 
+  height:130px
+}
+
+@media screen and (max-width: 1200px) {
+.insta {
+  width:600px; 
+  height:130px
+  }
+}
+
+@media screen and (max-width: 991px) {
+.insta {
+  width:690px; 
+  height:130px
+  }
+}
+
 @media screen and (max-width: 767px) {
   .contactbg {
     height: auto;
@@ -522,6 +542,40 @@ h3:after {
   }
   .contactbg .formholder form {
     margin-top: 30px;
+  }
+  .insta {
+  width:630px; 
+  height:130px
+  }
+}
+
+@media screen and (max-width: 684px) {
+.insta {
+  width:550px; 
+  height:100px
+  }
+}
+
+@media screen and (max-width: 600px) {
+.insta {
+  width:450px; 
+  height:80px
+  }
+}
+
+@media screen and (max-width: 510px) {
+.insta {
+  width:400px; 
+  height:60px
+  }
+}
+
+@media screen and (max-width: 442px) {
+.insta {
+  display: none;
+  }
+.insta-title {
+  display: none;
   }
 }
 
